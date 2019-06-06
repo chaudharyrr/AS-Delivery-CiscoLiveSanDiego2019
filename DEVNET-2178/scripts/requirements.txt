@@ -1,0 +1,8 @@
+requests
+pyOpenSSL
+ndg-httpsclient
+pyasn1
+tabulate
+six
+slackclient
+simple-crypt
