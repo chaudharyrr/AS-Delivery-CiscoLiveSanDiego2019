@@ -1,4 +1,4 @@
-[<img align="right" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/discoveryAPICalls/discoveryAPI1.png" title="DNA Center">](https://www.cisco.com/c/en/us/products/cloud-systems-management/dna-center/index.html)
+[<img align="right" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/ciscoDNAC1.png" title="DNA Center">](https://www.cisco.com/c/en/us/products/cloud-systems-management/dna-center/index.html)
 
 # DNA Center - API Scavenger Hunt
 In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll practice three different challenges: <br />
@@ -22,28 +22,28 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 > This section is expected to be completed in advance of the actual lab by the instructor to complete time-consuming steps.
 ### VPN Connectivity
 1.	Open **Cisco AnyConnect Client**, type in the IP address of **64.100.58.118** and click **"Connect"**.<br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect1.png" width="40%" height="40%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect1.png" width="40%" height="40%">
 
 2.	If the following warning message appears, click on **"Change Setting..."**. Otherwise, move to step #5<br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect2.png" width="50%" height="50%">
+    <img src="https://https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect2.png" width="50%" height="50%">
 
 3.	Uncheck the  **“Block connections to untrusted servers”** option (it's the last one) and close the window. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect3.png" width="40%" height="40%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect3.png" width="40%" height="40%">
 
 4.	Re-establish the VPN connection by clicking **"Connect** again. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect1.png" width="40%" height="40%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect1.png" width="40%" height="40%">
 
 5.	A new warning message would appear, click **"Connect Anyway"**. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect4.png" width="50%" height="50%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect4.png" width="50%" height="50%">
 
 6.	When the login prompt appears, type in the following **Username** and **Password**. Once done, click **OK**. <br />
 
     ```yaml
     Username: scmcdona
-    Password: C1scoDNA!
+    Password: CLus2019!
     ```
 
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect5.png" width="40%" height="40%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect5.png" width="40%" height="40%">
 
 ### Repo Clone
 7. Open a **Terminal** window (Press CMD + Space, type "Terminal" and hit return). <br />
@@ -52,8 +52,8 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
     ```concole
     cd /tmp
-    git clone https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/
-    cd CiscoLive-Cancun2018/DEVNET-2178/scripts
+    git clone https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/
+    cd AS-Delivery-CiscoLiveSanDiego2019/DEVNET-2178/scripts
     ```
 
 ### Lab Initialization
@@ -138,10 +138,10 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
 ### DNA Center and Slack Login
 11. From the Incognito web browser, sign in to **DNA Center** using your assigned **Username** and **Password** and to **Slack** (ciscolive-workspace) using your assigned **Email Address** and **Password** (please check the  **[table](#login-information)** below for your credentials). For example: <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/slackLogin1.png" width="40%" height="40%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin1.png" width="40%" height="40%">
 
 12. In Slack portal, make sure that you see the welcome message in the **"# ciscolive-cancun-2018"** channel. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/slackLogin3.png" width="50%" height="50%">
+    <img src="hhttps://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin3.png" width="50%" height="50%">
 
 --------------------------------------------------------------------------------------------------
 
@@ -174,13 +174,13 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
     <b><a href="#table-of-content">↥ back to top</a></b>
 </div>
 
-![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/story1.png)
+![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/story1.png)
 ### Lab Objectives & Flow
-![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/lab1Flow.png) <br />
+![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/lab1Flow.png) <br />
 
 13. Let us quickly review the DNA Center "Network Discovery" API calls in **[Cisco documentation](https://developer.cisco.com/site/dna-center-rest-api/)** (please right-click and open in a new tab).
 
-<img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/DidYouKnow.png" width="7%" height="7%">**In DNA Center 1.2.6, there are 146 documented API calls. Many of them, have additional sub-options/calls**. <br />
+<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/DidYouKnow.png" width="7%" height="7%">**In DNA Center 1.2.6, there are 146 documented API calls. Many of them, have additional sub-options/calls**. <br />
 
 14. right-click (open in a new tab) on the following POST API call to get in-depth information about all the available data types. <br />
 <p align="center">
@@ -205,7 +205,7 @@ To execute the script, copy and paste the following command in the terminal: **`
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoDiscovery_viaIPRange.py` to restart this exercise.**
 
 An example of script execution: <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1.png) <br />
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1.png) <br />
 
 17. In DNA Center, click on the **"Find New Devices"** hyperlink (located under the **"Network Devices"** section) to reach the **Discovery** page and check the the following (Another option is to click on the **rubric cub** icon (upper right), and select **Discovery**): <br />
 <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
