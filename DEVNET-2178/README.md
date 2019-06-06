@@ -208,20 +208,20 @@ An example of script execution: <br />
     ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1.png) <br />
 
 17. In DNA Center, click on the **"Find New Devices"** hyperlink (located under the **"Network Devices"** section) to reach the **Discovery** page and check the the following (Another option is to click on the **rubric cub** icon (upper right), and select **Discovery**): <br />
-<img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
+<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
 
 * **DNA Center Discovery Window** - On the left-hand side, look for your discovery job (Hint: Search for your first and last name). <br />
 
     <details>
       <summary>Example of Discovery Operation</summary>
-      <img align="left" src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery2.png" title="Discovery Operation">
+      <img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery2.png" title="Discovery Operation">
     </details>
 
 * **Slack Web Client** - What just happened? :smiley: (Hint: Check the **"# ciscolive-cancun-2018"** channel).  <br />
 
     <details>
       <summary>Example of Slack Web Client Notification</summary>
-      <img align="left" src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery3.png" title="Slack Web Client Notification"><br /><br />
+      <img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery3.png" title="Slack Web Client Notification"><br /><br />
     </details><br /><br /><br /><br />
 
 ## Section Summary and Key Points
@@ -240,9 +240,9 @@ An example of script execution: <br />
     <b><a href="#table-of-content">↥ back to top</a></b>
 </div>
 
-![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story2/story2.png) <br />
+![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/story2.png) <br />
 ### Lab Objectives and Flow
-![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story2/lab2Flow.png)
+![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/lab2Flow.png)
 
 18. Let us review the available DNA Center "Interfaces" API calls in **[Cisco documentation](https://developer.cisco.com/site/dna-center-rest-api/)**. (Hint: Search for ***"Get all interfaces"*** ) <br />
 
@@ -308,7 +308,7 @@ An example of script execution: <br />
 :warning:**It is recommended to expand the Terminal window to 160x70 for optimal view.** <br />
 
 An example of script execution: <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport2.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport2.png)
 
 23. For advance reports, please use the **Command Runner** API calls.
 
@@ -323,13 +323,13 @@ An example of script execution: <br />
 ##### 4. GET - Find the file which stores the API call result.
 ##### Please see (Postman) captures below (note that the API response is not JSON - Content-Type→text/html; charset=utf-8).
 </p>
-<img align="left" src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/apiCommandRunner1.png" title="API Command Runner call1 (POST)">
+<img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/apiCommandRunner1.png" title="API Command Runner call1 (POST)">
 
-<img align="left" src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/apiCommandRunner2.png" title="API Command Runner call2 (POST)">
+<img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/apiCommandRunner2.png" title="API Command Runner call2 (POST)">
 
-<img align="left" src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/apiCommandRunner3.png" title="API Command Runner call3 (GET)">
+<img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/apiCommandRunner3.png" title="API Command Runner call3 (GET)">
 
-<img align="left" src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/general/apiCommandRunner4.png" title="API Command Runner call4 (GET)">
+<img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/apiCommandRunner4.png" title="API Command Runner call4 (GET)">
 
 </details>
 
@@ -349,38 +349,38 @@ An example of script execution: <br />
     <b><a href="#table-of-content">↥ back to top</a></b>
 </div>
 
-![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/story3.png)
+![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/story3.png)
 ### Lab Objectives and Flow
-![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/lab3Flow.png) <br />
+![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/lab3Flow.png) <br />
 
 :warning:**For this exercise, it is recommended to line-up the windows for optimal view.** <br />
 
 24.	In DNA Canter GUI, right-click (anywhere) and choose **“Inspect”**. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI3.png" width="15%" height="15%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI3.png" width="15%" height="15%">
 
 25.	A new **Developer Tools** section will appear. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI4.png" width="80%" height="80%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI4.png" width="80%" height="80%">
 
 26.	Click on the **“Network”** tab. <br />
     ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI5.png)  
 
 27.	Click on the **“:”** icon (right-hand side) and then choose **“Undock into separate window”**. <br />
-    <img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI6.png" width="25%" height="25%">  
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI6.png" width="25%" height="25%">  
 
 28.	Now go back to DNA Canter GUI window and click on the **"Setting"** icon and choose **“System Settings”**. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI11.png)  
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI11.png)  
 
 29.	In the **"System Setting"** windows, click on the **“Users”** tab. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI13.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI13.png)
 
 30.	A new **“Users – Change Password”** window will appear. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI14.png)  
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI14.png)  
 
 31.	Click on **“User Management”**. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI15.png)  
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI15.png)  
  
 32.	Click on the **Add** button on the right side. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI16.png)  
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI16.png)  
 33. Create a new user (using the following information) :heavy_exclamation_mark:**DO NOT CLICK ON "Save"**:heavy_exclamation_mark::
 
 ```yaml
@@ -391,26 +391,26 @@ Password: ciscolive123!
 Role: NETWORK-ADMIN-ROLE
 ```
 
-<img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI17.png" width="45%" height="45%">
+<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI17.png" width="45%" height="45%">
 
 34.	In the Developer Tools window, clear all printout by clicking on the following icon (note that all the tracked data got cleared). <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI18.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI18.png)
 
 35.	Click on **"Save"** to create the user. <br />
 
 36.	Make sure that the user was successfully created. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI19.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI19.png)
 
 37.	Check the Developer Tools window. A similar trace will appear: <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI20.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI20.png)
 
-38.	Click on the first session (<img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI21.png" width="20%" height="20%">) and review the following API captured information (on the right-hand side): <br />
+38.	Click on the first session (<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI21.png" width="20%" height="20%">) and review the following API captured information (on the right-hand side): <br />
 * **“Request URL”** (Top right-hand side -> Headers -> General) <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI22.png) <br /><br />
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI22.png) <br /><br />
 * **"Request Payload”** (Loewer right-hand side -> Headers -> Request Payload) <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI23.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI23.png)
 
-<img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI24.png" width="7%" height="7%">**WOW! that is AWESOME! Why?** <br />
+<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI24.png" width="7%" height="7%">**WOW! that is AWESOME! Why?** <br />
 
 :bulb: We just discovered an undocumented POST API call. <br />
 :bulb: Along with that, we found the payload information. <br /> <br />
@@ -441,10 +441,10 @@ In this exercise, we will leverage this information to create new users. <br />
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoUserCreate_viaFileImport.py` to restart this exercise.**
 
 An example for script execution: <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25.png)
 
 41.	Go back to your browser and look at DNA Center again, you should see that the users were created successfully (Note: That's an example)<br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI26.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI26.png)
 
 ## Section Summary and Key Points
 
@@ -788,6 +788,7 @@ Learning API is a challenge and a journey. <br /> There are several ways how to 
     <b><a href="#table-of-content">↥ back to top</a></b>
 </div>
 
+:email: [Rajesh Chaudhary](mailto:rachaud2@cisco.com) <br />
 :email: [Yossi Meloch](mailto:ymeloch@cisco.com) <br />
 :email: [Stanley Chan](mailto:stanchan@cisco.com) <br />
 :email: [Scott McDonald](mailto:cmcdona@cisco.com) <br />
