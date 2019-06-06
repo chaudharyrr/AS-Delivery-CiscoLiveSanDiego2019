@@ -1,4 +1,4 @@
-[<img align="right" src="DEVNET-2178/pics/discoveryAPICalls/discoveryAPI1.png" title="DNA Center">](https://www.cisco.com/c/en/us/products/cloud-systems-management/dna-center/index.html)
+[<img align="right" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019.git/blob/master/DEVNET-2178/pics/discoveryAPICalls/discoveryAPI1.png" title="DNA Center">](https://www.cisco.com/c/en/us/products/cloud-systems-management/dna-center/index.html)
 
 # DNA Center - API Scavenger Hunt
 In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll practice three different challenges: <br />
