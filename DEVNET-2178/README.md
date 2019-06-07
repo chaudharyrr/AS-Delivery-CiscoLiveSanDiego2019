@@ -140,7 +140,7 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 11. From the Incognito web browser, sign in to **DNA Center** using your assigned **Username** and **Password** and to **Slack** (ciscolive-workspace) using your assigned **Email Address** and **Password** (please check the  **[table](#login-information)** below for your credentials). For example: <br />
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin1.png" width="40%" height="40%">
 
-12. In Slack portal, make sure that you see the welcome message in the **"# ciscolive-cancun-2018"** channel. <br />
+12. In Slack portal, make sure that you see the welcome message in the **"# ciscolive-SD-2019"** channel. <br />
     <img src="hhttps://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin3_2.png" width="50%" height="50%">
 
 --------------------------------------------------------------------------------------------------
