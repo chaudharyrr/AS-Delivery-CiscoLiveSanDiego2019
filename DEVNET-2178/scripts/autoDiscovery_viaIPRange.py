@@ -31,6 +31,8 @@ SlackPassword   = getpass.getpass('Slack Password: ')
 #Overwriting the input value with the DNAC Server IP for our testing env
 dnac_ip 	= "172.31.37.71"
 
+print (dnac_ip)
+
 def getToken():
     post_url = "https://" + dnac_ip + "/api/system/v1/auth/token"
     headers = {'content-type': 'application/json'}
@@ -66,6 +68,7 @@ def getSNMPv2InstanceUUID(token):
         sys.exit()
     print ("Retrieve SNMPv2 Instanceuuid \t\t \033[1;32;40m PASS \033[0;0m")
     r_json=response.json()
+    print (r_json)
     snmpv2UUID = r_json["response"][0]["instanceUuid"]
     return snmpv2UUID
 
