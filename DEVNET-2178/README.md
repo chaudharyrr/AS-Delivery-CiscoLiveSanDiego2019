@@ -138,7 +138,7 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
 ### DNA Center and Slack Login
 11. From the Incognito web browser, sign in to **DNA Center** using your assigned **Username** and **Password** and to **Slack** (ciscolive-workspace) using your assigned **Email Address** and **Password** (please check the  **[table](#login-information)** below for your credentials). For example: <br />
-    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin1.png" width="40%" height="40%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin1_2.png" width="40%" height="40%">
 
 12. In Slack portal, make sure that you see the welcome message in the **"# ciscolive-SD-2019"** channel. <br />
     <img src="hhttps://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin3_2.png" width="50%" height="50%">
@@ -483,7 +483,7 @@ Learning API is a challenge and a journey. <br /> There are several ways how to 
 
 
   ```python
-        #!/usr/bin/env
+        !/usr/bin/env
         import urllib3
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         import json
@@ -497,21 +497,25 @@ Learning API is a challenge and a journey. <br /> There are several ways how to 
         import warnings
         warnings.filterwarnings("ignore")
         requests.packages.urllib3.disable_warnings()
-        from slackclient import SlackClient
+        #from slackclient import SlackClient
+        import slack
         from simplecrypt import encrypt, decrypt
         from base64 import b64encode, b64decode
 
         os.system('clear')
 
-        print("DNA Center - Discovery Using IP's Range (CiscoLive Cancun 2018)")
+        print("DNA Center - Discovery Using IP's Range (CiscoLive SanDiego 2019)")
         print("---------------------------------------------------------------")
         print
-        dnac_ip         = input('IP Address: ')
+        dnac_ip         = input('IP Address: 172.31.37.71')
         username        = input('Username: ')
         password        = getpass.getpass('Password: ')
         range           = input ('IP Range: ')
         slackUser       = input('Your First and Last Name: ')
         SlackPassword   = getpass.getpass('Slack Password: ')
+        #Overwriting the input value with the DNAC Server IP for our testing env
+        dnac_ip         = "172.31.37.71"
+
 
         def getToken():
             post_url = "https://" + dnac_ip + "/api/system/v1/auth/token"
@@ -711,11 +715,14 @@ Learning API is a challenge and a journey. <br /> There are several ways how to 
       print("DNA Center - Bulk Users Creation (CiscoLive Cancun 2018)")
       print("--------------------------------------------------------")
       print
-      dnac_ip     = input('IP Address: ')
-      username 	= input('Username: ')
-      password 	= getpass.getpass('Password: ')
-      user_input 	= input("Input File Aabsolute Path: ")
+      dnac_ip     = input('IP Address: 172.31.37.71')
+      username        = input('Username: ')
+      password        = getpass.getpass('Password: ')
+      user_file       = input("Input File Name: ")
       cnt = 0
+      #We are just overwriting the DNAC server IP to the test server env
+      dnac_ip = "172.31.37.71"
+      user_input = "/tmp/AS-Delivery-CiscoLiveSanDiego2019/DEVNET-2178/scripts/inputFiles/" + user_file
 
       assert os.path.exists(user_input), "Unable to find the file at, "+str(user_input)
 
