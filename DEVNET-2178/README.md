@@ -154,18 +154,16 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
 |User   |DNA Center IP|DNA Center Username|DNA Center Password     |Slack Username |Slack Password     |
 |:-----:|:-------------:|:------:|:-----------:|:------------------------------:|:-----------:|
-|**User1**|`172.31.37.61`|`admin1`|`ciscolive123!`|`admin.1@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User2**|`172.31.37.61`|`admin2`|`ciscolive123!`|`admin.2@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User3**|`172.31.37.61`|`admin3`|`ciscolive123!`|`admin.3@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User4**|`172.31.37.61`|`admin4`|`ciscolive123!`|`admin.4@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User5**|`172.31.37.61`|`admin5`|`ciscolive123!`|`admin.5@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User6**|`172.31.37.61`|`admin6`|`ciscolive123!`|`admin.6@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User7**|`172.31.37.61`|`admin7`|`ciscolive123!`|`admin.7@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User8**|`172.31.37.61`|`admin8`|`ciscolive123!`|`admin.8@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User9**|`172.31.37.61`|`admin9`|`ciscolive123!`|`admin.9@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User10**|`172.31.37.61`|`admin10`|`ciscolive123!`|`admin.10@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User11**|`172.31.37.61`|`admin11`|`ciscolive123!`|`admin.11@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User12**|`172.31.37.61`|`admin12`|`ciscolive123!`|`admin.12@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User1**|`172.31.37.71`|`admin1`|`ciscolive123!`|`admin.1@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User2**|`172.31.37.71`|`admin2`|`ciscolive123!`|`admin.2@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User3**|`172.31.37.71`|`admin3`|`ciscolive123!`|`admin.3@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User4**|`172.31.37.71`|`admin4`|`ciscolive123!`|`admin.4@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User5**|`172.31.37.71`|`admin5`|`ciscolive123!`|`admin.5@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User6**|`172.31.37.71`|`admin6`|`ciscolive123!`|`admin.6@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User7**|`172.31.37.71`|`admin7`|`ciscolive123!`|`admin.7@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User8**|`172.31.37.71`|`admin8`|`ciscolive123!`|`admin.8@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User9**|`172.31.37.71`|`admin9`|`ciscolive123!`|`admin.9@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User10**|`172.31.37.71`|`admin10`|`ciscolive123!`|`admin.10@ciscolivecancun2018.com`|`ciscolive123!`|
 
 --------------------------------------------------------------------------------------------------
 
@@ -194,10 +192,10 @@ To execute the script, copy and paste the following command in the terminal: **`
 
 |Prompt   | Input |
 |:-----|:-------------|
-|IP Address | **`172.31.37.61`** |
+|IP Address | **`172.31.37.71`** |
 |Username | For example: **`admin1`** |
 |Password | **`ciscolive123!`** |
-|IP Range | **`172.31.37.91-172.31.37.94`** |
+|IP Range | **`7.1.1.1-7.1.1.254`** |
 |Your First and Last Name | For example: **`John Doe`** |
 |Slack Password | **`ciscolive123!`** |
 
@@ -248,7 +246,7 @@ An example of script execution: <br />
 
 19. right-click on the following GET API call to get in-depth information about all the available data types. <br />
 <p align="center">
-    <a href="https://developer.cisco.com/site/dna-center-rest-api/"><img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport1.png" title="DNA Center API Calls" align="center" /></a>
+    <a href="https://developer.cisco.com/site/dna-center-rest-api/"><img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport1.png" title="DNA Center API Calls" align="center" /></a>
 </p>
 
 20. Review the available data (i.e., response) of this API call. <br /> Do you see any value that may help with?
@@ -299,7 +297,7 @@ An example of script execution: <br />
 
 |Prompt   | Input |
 |:-----|:-------------|
-|IP Address | **`172.31.37.61`** |
+|IP Address | **`172.31.37.71`** |
 |Username | For example: **`admin1`** |
 |Password | **`ciscolive123!`** |
 
@@ -308,7 +306,7 @@ An example of script execution: <br />
 :warning:**It is recommended to expand the Terminal window to 160x70 for optimal view.** <br />
 
 An example of script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport2.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport2_2.png)
 
 23. For advance reports, please use the **Command Runner** API calls.
 
