@@ -19,11 +19,14 @@ os.system('clear')
 print("DNA Center - Bulk Users Creation (CiscoLive SanDiego 2019)")
 print("--------------------------------------------------------")
 print
-dnac_ip     = input('IP Address: ')
+dnac_ip     = input('IP Address: 172.31.37.71')
 username 	= input('Username: ')
 password 	= getpass.getpass('Password: ')
-user_input 	= input("Input File Aabsolute Path: ")
+user_file 	= input("Input File Name: ")
 cnt = 0
+#We are just overwriting the DNAC server IP to the test server IP
+dnac_ip = "172.31.37.71"
+user_input = "/tmp/AS-Delivery-CiscoLiveSanDiego2019/DEVNET-2178/scripts/inputFiles/" + user_file
 
 assert os.path.exists(user_input), "Unable to find the file at, "+str(user_input)
 
