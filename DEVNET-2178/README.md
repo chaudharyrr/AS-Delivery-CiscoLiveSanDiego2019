@@ -25,7 +25,7 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect1.png" width="40%" height="40%">
 
 2.	If the following warning message appears, click on **"Change Setting..."**. Otherwise, move to step #5<br />
-    <img src="https://https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect2.png" width="50%" height="50%">
+    <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect2.png" width="50%" height="50%">
 
 3.	Uncheck the  **“Block connections to untrusted servers”** option (it's the last one) and close the window. <br />
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/vpnConnectivity/vpnConnect3.png" width="40%" height="40%">
