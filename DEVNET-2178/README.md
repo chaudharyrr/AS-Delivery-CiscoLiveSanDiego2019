@@ -141,7 +141,7 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin1.png" width="40%" height="40%">
 
 12. In Slack portal, make sure that you see the welcome message in the **"# ciscolive-cancun-2018"** channel. <br />
-    <img src="hhttps://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin3.png" width="50%" height="50%">
+    <img src="hhttps://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/slackLogin3_2.png" width="50%" height="50%">
 
 --------------------------------------------------------------------------------------------------
 
@@ -154,16 +154,16 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
 |User   |DNA Center IP|DNA Center Username|DNA Center Password     |Slack Username |Slack Password     |
 |:-----:|:-------------:|:------:|:-----------:|:------------------------------:|:-----------:|
-|**User1**|`172.31.37.71`|`admin1`|`ciscolive123!`|`admin.1@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User2**|`172.31.37.71`|`admin2`|`ciscolive123!`|`admin.2@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User3**|`172.31.37.71`|`admin3`|`ciscolive123!`|`admin.3@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User4**|`172.31.37.71`|`admin4`|`ciscolive123!`|`admin.4@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User5**|`172.31.37.71`|`admin5`|`ciscolive123!`|`admin.5@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User6**|`172.31.37.71`|`admin6`|`ciscolive123!`|`admin.6@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User7**|`172.31.37.71`|`admin7`|`ciscolive123!`|`admin.7@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User8**|`172.31.37.71`|`admin8`|`ciscolive123!`|`admin.8@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User9**|`172.31.37.71`|`admin9`|`ciscolive123!`|`admin.9@ciscolivecancun2018.com`|`ciscolive123!`|
-|**User10**|`172.31.37.71`|`admin10`|`ciscolive123!`|`admin.10@ciscolivecancun2018.com`|`ciscolive123!`|
+|**User1**|`172.31.37.71`|`admin1`|`ciscolive123!`|`admin.1@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User2**|`172.31.37.71`|`admin2`|`ciscolive123!`|`admin.2@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User3**|`172.31.37.71`|`admin3`|`ciscolive123!`|`admin.3@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User4**|`172.31.37.71`|`admin4`|`ciscolive123!`|`admin.4@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User5**|`172.31.37.71`|`admin5`|`ciscolive123!`|`admin.5@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User6**|`172.31.37.71`|`admin6`|`ciscolive123!`|`admin.6@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User7**|`172.31.37.71`|`admin7`|`ciscolive123!`|`admin.7@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User8**|`172.31.37.71`|`admin8`|`ciscolive123!`|`admin.8@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User9**|`172.31.37.71`|`admin9`|`ciscolive123!`|`admin.9@ciscoliveSanDiego2019.com`|`ciscolive123!`|
+|**User10**|`172.31.37.71`|`admin10`|`ciscolive123!`|`admin.10@ciscoliveSanDiego2019.com`|`ciscolive123!`|
 
 --------------------------------------------------------------------------------------------------
 
@@ -182,7 +182,7 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
 14. right-click (open in a new tab) on the following POST API call to get in-depth information about all the available data types. <br />
 <p align="center">
-    <a href="https://developer.cisco.com/site/dna-center-rest-api/"><img src="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/discoveryAPICalls/discoveryAPI1.png" title="DNA Center API Calls" align="center" /></a>
+    <a href="https://developer.cisco.com/site/dna-center-rest-api/"><img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/discoveryAPICalls/discoveryAPI1.png" title="DNA Center API Calls" align="center" /></a>
 </p>
 
 15. In this lab, we will trigger an IP-range discovery from CLI, leveraging several DNA Center an Slack API calls, and Python scripting. Due to time constraint, the script was already created. <br />
@@ -203,7 +203,7 @@ To execute the script, copy and paste the following command in the terminal: **`
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoDiscovery_viaIPRange.py` to restart this exercise.**
 
 An example of script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1.png) <br />
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1_2.png) <br />
 
 17. In DNA Center, click on the **"Find New Devices"** hyperlink (located under the **"Network Devices"** section) to reach the **Discovery** page and check the the following (Another option is to click on the **rubric cub** icon (upper right), and select **Discovery**): <br />
 <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
