@@ -422,26 +422,24 @@ In this exercise, we will leverage this information to create new users. <br />
 
 |Prompt   | Input |
 |:-----|:-------------|
-|IP Address | **`172.31.37.61`** |
+|IP Address | **`172.31.37.71`** |
 |Username | For example: **`admin1`** |
 |Password | **`ciscolive123!`** |
-|Input file (for user admin1) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList1.csv`**  |
-|Input file (for user admin2) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList2.csv`**  |
-|Input file (for user admin3) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList3.csv`**  |
-|Input file (for user admin4) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList4.csv`**  |
-|Input file (for user admin5) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList5.csv`**  |
-|Input file (for user admin6) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList6.csv`**  |
-|Input file (for user admin7) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList7.csv`**  |
-|Input file (for user admin8) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList8.csv`**  |
-|Input file (for user admin9) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList9.csv`**  |
-|Input file (for user admin10) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList10.csv`**  |
-|Input file (for user admin11) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList11.csv`**  |
-|Input file (for user admin12) | **`/tmp/CiscoLive-Cancun2018/DEVNET-2178/scripts/inputFiles/userList12.csv`**  |
+|Input file (for user admin1) | **`userList1.csv`**  |
+|Input file (for user admin2) | **`userList2.csv`**  |
+|Input file (for user admin3) | **`userList3.csv`**  |
+|Input file (for user admin4) | **`userList4.csv`**  |
+|Input file (for user admin5) | **`userList5.csv`**  |
+|Input file (for user admin6) | **`userList6.csv`**  |
+|Input file (for user admin7) | **`userList7.csv`**  |
+|Input file (for user admin8) | **`userList8.csv`**  |
+|Input file (for user admin9) | **`userList9.csv`**  |
+|Input file (for user admin10) | **`userList10.csv`**  |
 
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoUserCreate_viaFileImport.py` to restart this exercise.**
 
 An example for script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25_2.png)
 
 41.	Go back to your browser and look at DNA Center again, you should see that the users were created successfully (Note: That's an example)<br />
     ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI26.png)
