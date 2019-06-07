@@ -24,7 +24,7 @@ username 	= input('Username: ')
 password 	= getpass.getpass('Password: ')
 user_file 	= input("Input File Name: ")
 cnt = 0
-#We are just overwriting the DNAC server IP to the test server IP
+#We are just overwriting the DNAC server IP to the test server env
 dnac_ip = "172.31.37.71"
 user_input = "/tmp/AS-Delivery-CiscoLiveSanDiego2019/DEVNET-2178/scripts/inputFiles/" + user_file
 
