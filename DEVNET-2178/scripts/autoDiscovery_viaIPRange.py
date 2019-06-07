@@ -22,12 +22,14 @@ os.system('clear')
 print("DNA Center - Discovery Using IP's Range (CiscoLive SanDiego 2019)")
 print("---------------------------------------------------------------")
 print
-dnac_ip         = input('IP Address: ')
+dnac_ip         = input('IP Address: 172.31.37.71')
 username        = input('Username: ')
 password        = getpass.getpass('Password: ')
 range           = input ('IP Range: ')
 slackUser       = input('Your First and Last Name: ')
 SlackPassword   = getpass.getpass('Slack Password: ')
+#Overwriting the input value with the DNAC Server IP for our testing env
+dnac_ip 	= "172.31.37.71"
 
 def getToken():
     post_url = "https://" + dnac_ip + "/api/system/v1/auth/token"
