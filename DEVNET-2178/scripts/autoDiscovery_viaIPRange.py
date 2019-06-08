@@ -97,7 +97,7 @@ def slackNotification():
     #plaintext = decrypt(SlackPassword, cipher)
     #str_data = plaintext.decode('utf-8')
     #slack_token = str_data
-    slack_token="xoxp-463078570673-463512828948-532319044546-2dee207d13024ca34e2b08e039c11b88"
+    #slack_token="xoxp-463078570673-463512828948-532319044546-2dee207d13024ca34e2b08e039c11b88"
     #sc = SlackClient(slack_token)
     sc = slack.WebClient(token=slack_token)
     sc.chat_postMessage(
