@@ -18,9 +18,11 @@ os.system('clear')
 print("DNA Center - Interface Speed Configuration (CiscoLive SanDiego 2019)")
 print("------------------------------------------------------------------")
 print
-dnac_ip     = input('IP Address: ')
+dnac_ip     = input('IP Address: 172.31.37.71')
 username 	= input('Username: ')
 password 	= getpass.getpass('Password: ')
+#Overwriting dnac ip with the test env ip
+dnac_ip = "172.31.37.71"
 
 def getToken():
     post_url = "https://" + dnac_ip + "/api/system/v1/auth/token"

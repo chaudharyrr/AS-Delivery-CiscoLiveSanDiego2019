@@ -68,7 +68,6 @@ def getSNMPv2InstanceUUID(token):
         sys.exit()
     print ("Retrieve SNMPv2 Instanceuuid \t\t \033[1;32;40m PASS \033[0;0m")
     r_json=response.json()
-    print (r_json)
     snmpv2UUID = r_json["response"][0]["instanceUuid"]
     return snmpv2UUID
 
