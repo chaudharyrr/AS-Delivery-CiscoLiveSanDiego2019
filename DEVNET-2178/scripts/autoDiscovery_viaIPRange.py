@@ -92,11 +92,12 @@ def postDiscovery(token, cliUUID, snmpv2UUID):
     print ("Run Discovery \t\t\t\t \033[1;32;40m PASS \033[0;0m")
 
 def slackNotification():
-    encoded_cipher = "c2MAAo9SyHusC9Bgu3nMzSVS5qVHKnuDlyClO+BsyBUoLpWOzIH6bG3PCY7rhkJU187L/WjOWTWTR7zsC+hXqV2AKzGmELsaCml/88E9gEMzBffyQzrDYBj/HCC6Y5o8lsWqJKLvq/c3Uj2aqA/MiC4608baeCIG2y1hv7gsDDZMIwTmYbMUEqzATVdYnytR"
-    cipher = b64decode(encoded_cipher)
-    plaintext = decrypt(SlackPassword, cipher)
-    str_data = plaintext.decode('utf-8')
-    slack_token = str_data
+    #encoded_cipher = "c2MAAo9SyHusC9Bgu3nMzSVS5qVHKnuDlyClO+BsyBUoLpWOzIH6bG3PCY7rhkJU187L/WjOWTWTR7zsC+hXqV2AKzGmELsaCml/88E9gEMzBffyQzrDYBj/HCC6Y5o8lsWqJKLvq/c3Uj2aqA/MiC4608baeCIG2y1hv7gsDDZMIwTmYbMUEqzATVdYnytR"
+    #cipher = b64decode(encoded_cipher)
+    #plaintext = decrypt(SlackPassword, cipher)
+    #str_data = plaintext.decode('utf-8')
+    #slack_token = str_data
+    slack_token="xoxp-463078570673-463512828948-532319044546-2dee207d13024ca34e2b08e039c11b88"
     #sc = SlackClient(slack_token)
     sc = slack.WebClient(token=slack_token)
     sc.chat_postMessage(
