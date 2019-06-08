@@ -203,7 +203,7 @@ To execute the script, copy and paste the following command in the terminal: **`
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoDiscovery_viaIPRange.py` to restart this exercise.**
 
 An example of script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1_2.png) <br />
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery1_3.png) <br />
 
 17. In DNA Center, click on the **"Find New Devices"** hyperlink (located under the **"Network Devices"** section) to reach the **Discovery** page and check the the following (Another option is to click on the **rubric cub** icon (upper right), and select **Discovery**): <br />
 <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
@@ -306,7 +306,7 @@ An example of script execution: <br />
 :warning:**It is recommended to expand the Terminal window to 160x70 for optimal view.** <br />
 
 An example of script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport2_2.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport2_3.png)
 
 23. For advance reports, please use the **Command Runner** API calls.
 
@@ -360,7 +360,8 @@ An example of script execution: <br />
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI4.png" width="80%" height="80%">
 
 26.	Click on the **“Network”** tab. <br />
-    ![alt text](https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI5.png)  
+    <img src ="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI5.png" width="80%" height="80%">
+ 
 
 27.	Click on the **“:”** icon (right-hand side) and then choose **“Undock into separate window”**. <br />
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI6.png" width="25%" height="25%">  
@@ -437,7 +438,7 @@ In this exercise, we will leverage this information to create new users. <br />
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoUserCreate_viaFileImport.py` to restart this exercise.**
 
 An example for script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25_3.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25_4.png)
 
 41.	Go back to your browser and look at DNA Center again, you should see that the users were created successfully (Note: That's an example)<br />
     ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI26.png)
