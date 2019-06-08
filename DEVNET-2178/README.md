@@ -468,7 +468,7 @@ An example for script execution: <br />
 </div>
 
 Learning API is a challenge and a journey. <br /> There are several ways how to learn, practice and master API: <br />
-- Practice DNA Center [Command Runner](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center/1-2-6/user_guide/b_dnac_ug_1_2_6/about_command_runner.html) UI and API calls (the Command Runner enables you to run read-only commands on a network device and to retrieve its real-time configuration). <br />
+- Practice DNA Center [Command Runner](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center/1-2-10/user_guide/b_cisco_dna_center_ug_1_2_10/b_dnac_ug_1_2_10_chapter_01000.html) UI and API calls (the Command Runner enables you to run read-only commands on a network device and to retrieve its real-time configuration). <br />
 - Take advantage of the built-in browsers [Inspect Element](https://developers.google.com/web/tools/chrome-devtools/network-performance/) tools. <br />
 - Get familiar with [WireShark](https://www.wireshark.org/) (Network protocol analyzer). <br />
 - Learn about [Fiddler](https://www.telerik.com/fiddler) (A powerful web debugging tool which logs HTTP(S) traffic between your computer and the Internet). <br />
