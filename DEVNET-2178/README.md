@@ -447,7 +447,7 @@ An example for script execution: <br />
 <table>
 <tr>
 <td>
-  By running the DNA Center Bulk Users Creation script, DNA Center auto-configured a list of users from a CSV file. That was done using (unpublished) API call wrapped in a python script (A similar script can be created for modifying or deleting a list of users).
+  By running the DNA Center Bulk Users Creation script, DNA Center auto-configured a list of users from a CSV file. That was done using (undocumented) API call wrapped in a python script (A similar script can be created for modifying or deleting a list of users).
 </td>
 </tr>
 </table>
@@ -639,13 +639,15 @@ Learning API is a challenge and a journey. <br /> There are several ways how to 
 
       os.system('clear')
 
-      print("DNA Center - Interface Speed Configuration (CiscoLive Cancun 2018)")
+      print("DNA Center - Interface Speed Configuration (CiscoLive SanDiego 2019)")
       print("------------------------------------------------------------------")
       print
-      dnac_ip     = raw_input('IP Address: ')
-      username 	= raw_input('Username: ')
+      dnac_ip     = input('IP Address: 172.31.37.71')
+      username 	= input('Username: ')
       password 	= getpass.getpass('Password: ')
-
+      #Overwriting dnac ip with the test env ip
+      dnac_ip = "172.31.37.71"
+      
       def getToken():
           post_url = "https://" + dnac_ip + "/api/system/v1/auth/token"
           headers = {'content-type': 'application/json'}
@@ -712,7 +714,7 @@ Learning API is a challenge and a journey. <br /> There are several ways how to 
 
       os.system('clear')
 
-      print("DNA Center - Bulk Users Creation (CiscoLive Cancun 2018)")
+      print("DNA Center - Bulk Users Creation (CiscoLive SanDiego 2019)")
       print("--------------------------------------------------------")
       print
       dnac_ip     = input('IP Address: 172.31.37.71')
