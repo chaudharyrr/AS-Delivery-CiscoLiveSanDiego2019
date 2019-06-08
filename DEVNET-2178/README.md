@@ -188,7 +188,7 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 15. In this lab, we will trigger an IP-range discovery from CLI, leveraging several DNA Center and Slack API calls, using Python scripting. Due to time constraint, the script was already created. <br />
 To execute the script, copy and paste the following command in the terminal: **`python autoDiscovery_viaIPRange.py`**  <br />
 
-16. Please enter the following information to start the device discovery: <br />
+16. Please enter the following information to start the device discovery: (IP Address value is pre filled to save time) <br />
 
 |Prompt   | Input |
 |:-----|:-------------|
@@ -293,7 +293,7 @@ An example of script execution: <br />
 
 21. **Great Job, you have found it!** :thumbsup: <br /> In this exercise, we will trigger specific API calls, leveraging two DNA Center API calls and Python scripting. Due to time constraint, the python script was already created. <br /> To execute the script, copy and paste the following command in the terminal: **`python autoReport_IFSpeedConf.py`**  <br />
 
-22. Please enter the following information to generate the report: <br />
+22. Please enter the following information to generate the report: (IP Address value is pre filled to save time) <br />
 
 |Prompt   | Input |
 |:-----|:-------------|
@@ -360,7 +360,7 @@ An example of script execution: <br />
     <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI4.png" width="80%" height="80%">
 
 26.	Click on the **“Network”** tab. <br />
-    <img src ="https://wwwin-github.cisco.com/AS-Internal/AS-Delivery-CiscoLiveCancun2018/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI5.png" width="80%" height="80%">
+    <img src ="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI5.png" width="80%" height="80%">
  
 
 27.	Click on the **“:”** icon (right-hand side) and then choose **“Undock into separate window”**. <br />
@@ -417,7 +417,7 @@ In this exercise, we will leverage this information to create new users. <br />
 
 39. Now, let us build a script which will use the newly discovered API for a bulk users creation (via a CSV file). Due to time constraint, the python script was already created. <br /> To execute the script, copy and paste the following command in the terminal: **`python autoUserCreate_viaFileImport.py`** <br />
 
-40. Please enter the following information to create the new users (Note that the **input file** is based on your **user ID**): <br />
+40. Please enter the following information to create the new users (Note that the **input file** is based on your **user ID**, IP Address value is pre filled to save time): <br />
 
 |Prompt   | Input |
 |:-----|:-------------|
