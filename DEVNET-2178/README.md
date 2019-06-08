@@ -178,14 +178,14 @@ In this workshop, you’ll get hands-on with DNA Center API capabilities. You'll
 
 13. Let us quickly review the DNA Center "Network Discovery" API calls in **[Cisco documentation](https://developer.cisco.com/site/dna-center-rest-api/)** (please right-click and open in a new tab).
 
-<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/DidYouKnow.png" width="7%" height="7%">**In DNA Center 1.2.6, there are 146 documented API calls. Many of them, have additional sub-options/calls**. <br />
+<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/general/DidYouKnow.png" width="7%" height="7%">**In DNA Center 1.2.10, there are 146 documented API calls. Many of them, have additional sub-options/calls**. <br />
 
 14. right-click (open in a new tab) on the following POST API call to get in-depth information about all the available data types. <br />
 <p align="center">
     <a href="https://developer.cisco.com/site/dna-center-rest-api/"><img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/discoveryAPICalls/discoveryAPI1.png" title="DNA Center API Calls" align="center" /></a>
 </p>
 
-15. In this lab, we will trigger an IP-range discovery from CLI, leveraging several DNA Center an Slack API calls, and Python scripting. Due to time constraint, the script was already created. <br />
+15. In this lab, we will trigger an IP-range discovery from CLI, leveraging several DNA Center and Slack API calls, using Python scripting. Due to time constraint, the script was already created. <br />
 To execute the script, copy and paste the following command in the terminal: **`python autoDiscovery_viaIPRange.py`**  <br />
 
 16. Please enter the following information to start the device discovery: <br />
@@ -215,7 +215,7 @@ An example of script execution: <br />
       <img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery2.png" title="Discovery Operation">
     </details>
 
-* **Slack Web Client** - What just happened? :smiley: (Hint: Check the **"# ciscolive-cancun-2018"** channel).  <br />
+* **Slack Web Client** - What just happened? :smiley: (Hint: Check the **"# ciscolive-sd-2019"** channel).  <br />
 
     <details>
       <summary>Example of Slack Web Client Notification</summary>
@@ -246,7 +246,7 @@ An example of script execution: <br />
 
 19. right-click on the following GET API call to get in-depth information about all the available data types. <br />
 <p align="center">
-    <a href="https://developer.cisco.com/site/dna-center-rest-api/"><img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport1.png" title="DNA Center API Calls" align="center" /></a>
+    <a href="https://pubhub.devnetcloud.com/media/dna-center-api-1210/docs/swagger_dnacp_1210_annotated.html#!/Devices/getAllInterfaces"><img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story2/newReport1.png" title="DNA Center API Calls" align="center" /></a>
 </p>
 
 20. Review the available data (i.e., response) of this API call. <br /> Do you see any value that may help with?
@@ -437,7 +437,7 @@ In this exercise, we will leverage this information to create new users. <br />
 :warning:**In case of typos, please click on "control C" to stop the script execution. After that, copy and paste `python autoUserCreate_viaFileImport.py` to restart this exercise.**
 
 An example for script execution: <br />
-    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25_2.png)
+    ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI25_3.png)
 
 41.	Go back to your browser and look at DNA Center again, you should see that the users were created successfully (Note: That's an example)<br />
     ![alt text](https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story3/newAPI26.png)
