@@ -12,15 +12,15 @@ from requests.auth import HTTPBasicAuth
 import warnings
 warnings.filterwarnings("ignore")
 requests.packages.urllib3.disable_warnings()
-#from slackclient import SlackClient
 import slack
 from simplecrypt import encrypt, decrypt
 from base64 import b64encode, b64decode
 
+
 os.system('clear')
 
 print("DNA Center - Discovery Using IP's Range (CiscoLive SanDiego 2019)")
-print("---------------------------------------------------------------")
+print("----------------------------------------------------------------")
 print
 dnac_ip         = input('IP Address: 172.31.37.71')
 username        = input('Username: ')
@@ -30,8 +30,6 @@ slackUser       = input('Your First and Last Name: ')
 SlackPassword   = getpass.getpass('Slack Password: ')
 #Overwriting the input value with the DNAC Server IP for our testing env
 dnac_ip 	= "172.31.37.71"
-
-print (dnac_ip)
 
 def getToken():
     post_url = "https://" + dnac_ip + "/api/system/v1/auth/token"
@@ -92,13 +90,11 @@ def postDiscovery(token, cliUUID, snmpv2UUID):
     print ("Run Discovery \t\t\t\t \033[1;32;40m PASS \033[0;0m")
 
 def slackNotification():
-    #encoded_cipher = "c2MAAo9SyHusC9Bgu3nMzSVS5qVHKnuDlyClO+BsyBUoLpWOzIH6bG3PCY7rhkJU187L/WjOWTWTR7zsC+hXqV2AKzGmELsaCml/88E9gEMzBffyQzrDYBj/HCC6Y5o8lsWqJKLvq/c3Uj2aqA/MiC4608baeCIG2y1hv7gsDDZMIwTmYbMUEqzATVdYnytR"
-    #cipher = b64decode(encoded_cipher)
-    #plaintext = decrypt(SlackPassword, cipher)
-    #str_data = plaintext.decode('utf-8')
-    #slack_token = str_data
-    #slack_token="xoxp-463078570673-463512828948-532319044546-2dee207d13024ca34e2b08e039c11b88"
-    #sc = SlackClient(slack_token)
+    encoded_cipher = "c2MAAuHps4MTUtswtUZeAchUc/z8uas6McI5JcDP5gnKL+nSdifaMZc3KTGnc+kR+InDylYfMlPCHuNhtB/DVlI9tSJVmD9wzwhqGnK3e/PHik8S9UjuYCHNaXijh+imRks7l6430wS4nMejaE2m+NdC+KEKA+VKVJ8tvJ+E9tLaRzZzrpfTgvwiALjfxj8g"
+    cipher = b64decode(encoded_cipher)
+    plaintext = decrypt(SlackPassword, cipher)
+    str_data = plaintext.decode('utf-8')
+    slack_token = str_data
     sc = slack.WebClient(token=slack_token)
     sc.chat_postMessage(
       channel="CJ9AUU74M",
@@ -125,6 +121,7 @@ def slackNotification():
             }
         ]
     )
+
 
 thetoken = getToken()
 theCliUUID = getCliInstanceUUID(thetoken)
