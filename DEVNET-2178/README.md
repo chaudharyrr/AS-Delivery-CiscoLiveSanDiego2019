@@ -209,11 +209,8 @@ An example of script execution: <br />
 <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
 
 * **DNA Center Discovery Window** - This will take you to the Discovery Dashboard. There Click on "View All Discoveries" at the top left <br />
-
-    <details>
-      <summary>Example of Discovery Operation</summary>
-      <img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/discovery_dashboard.png" title="Discovery Operation">
-    </details>
+<img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/discovery_dashboard.png" width="30%" height="30%">
+   
     
 * **DNA Center Discovery Window** - On the left-hand side, look for your discovery job (Hint: Search for your first and last name). <br />
 
