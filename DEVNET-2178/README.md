@@ -208,6 +208,13 @@ An example of script execution: <br />
 17. In DNA Center, click on the **"Find New Devices"** hyperlink (located under the **"Network Devices"** section) to reach the **Discovery** page and check the the following (Another option is to click on the **rubric cub** icon (upper right), and select **Discovery**): <br />
 <img src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/Discovery0.png" width="30%" height="30%">
 
+* **DNA Center Discovery Window** - This will take you to the Discovery Dashboard. There Click on "View All Discoveries" at the top left <br />
+
+    <details>
+      <summary>Example of Discovery Operation</summary>
+      <img align="left" src="https://github.com/chaudharyrr/AS-Delivery-CiscoLiveSanDiego2019/blob/master/DEVNET-2178/pics/storyStrip/story1/discovery_dashboard.png" title="Discovery Operation">
+    </details>
+    
 * **DNA Center Discovery Window** - On the left-hand side, look for your discovery job (Hint: Search for your first and last name). <br />
 
     <details>
